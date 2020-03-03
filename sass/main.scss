@@ -1,0 +1,12 @@
+@import "config";
+@import "header";
+@import "motor";
+@import "banner";
+@import "performance";
+@import "footer";
+
+.active {
+  border: 1px solid #cc1f17;
+  border-radius: 16px;
+  padding: 0 15px;
+}

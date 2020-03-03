@@ -1,0 +1,42 @@
+.banner {
+  z-index: 1;
+  background: url("../assets/Landingpage/wew.png") no-repeat fixed center right;
+  background-size: cover;
+
+  &__body {
+    padding: 100px 200px;
+    h1 {
+      font-family: "titiliumBold";
+      color: #ffffff;
+      font-size: 60px;
+      font-weight: 700;
+      line-height: 58px;
+      opacity: 0.800000011920929;
+      text-align: left;
+    }
+    p {
+      color: #ffffff;
+      font-size: 15px;
+      font-weight: 700;
+      line-height: 18px;
+      opacity: 0.800000011920929;
+      padding: 45px 0;
+    }
+  }
+
+  button {
+    background-image: linear-gradient(315deg, #cc1f17 0%, #ee493a 100%);
+    border-radius: 8px;
+    box-shadow: 0 6px 10px 0 rgba(143, 70, 70, 0.3);
+    width: 196px;
+    height: 51px;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: center;
+    outline: none;
+    border: none;
+    cursor: pointer;
+  }
+}

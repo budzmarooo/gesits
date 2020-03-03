@@ -1,0 +1,20 @@
+main {
+  width: 100%;
+  margin-top: 70px;
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+    @include transitionIn;
+    .motor {
+      text-align: center;
+      position: relative;
+      background: url("../assets/Landingpage/INOVASIBEREVOLUSI.png") no-repeat
+        center top;
+      // background-color: yellowgreen;
+      .scroll {
+        display: block;
+        margin: 40px auto;
+      }
+    }
+  }
+}
